@@ -39,6 +39,8 @@ Personally, I would like to see some more game modes that take the game to highe
 
 Although asking you to port Hexaria to iOS or Android might be a bit ridiculous, I'd like to see a Mac or Linux version. If you can get those versions to me, I'll also add them to the official pages on [GameJolt](http://gamejolt.com/games/puzzle/hexaria/44053/) and [itch.io](http://amazingcookie.itch.io/hexaria).
 
+EDIT: Bjarno has ported Hexaria V1000 to Linux.
+
 *Translations*
 
 You don't have to worry about all this technical programming stuff- just follow [these instructions!](https://trello.com/c/hVWdCHzl)

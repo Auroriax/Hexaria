@@ -152,6 +152,9 @@ restore() //Makes sure no more moves can be made after the game ends
 
 instance_create(130,20,o_restart); instance_create(750,20,o_tweetscore);
 if !gj_privateset() {phase = 2}
+
+if global.sfx
+{audio_play_sound(sou_gameover,0,false)}
 </string>
           </argument>
         </arguments>
@@ -550,6 +553,9 @@ var visscore;
 visscore = preparesendscore()
 request[0] = gj_scores_add_guest(global.leaderboardid, visscore, score,string(o_control.matches)+"_"+string(o_control.gemsmatched),keyboard_string)
 }
+else
+if background_alpha[1] == 0
+{{background_alpha[1] = 0.05; alarm[11] = 1;}}
 </string>
           </argument>
         </arguments>

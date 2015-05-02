@@ -26,6 +26,7 @@
     <sound>sound\sou_turnoff</sound>
     <sound>sound\sou_bonus</sound>
     <sound>sound\sou_modeselect</sound>
+    <sound>sound\sou_gameover</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Main_menu">
@@ -66,6 +67,7 @@
     <sprite>sprites\s_hexframe</sprite>
     <sprite>sprites\s_cross</sprite>
     <sprite>sprites\s_radius2</sprite>
+    <sprite>sprites\s_radius2width2</sprite>
     <sprite>sprites\s_lock</sprite>
     <sprite>sprites\s_bonuspoints</sprite>
     <sprite>sprites\s_questionhex</sprite>
@@ -213,7 +215,7 @@
     <room>rooms\rm_downpour</room>
   </rooms>
   <constants number="2">
-    <constant name="cn_version">1000</constant>
+    <constant name="cn_version">1010</constant>
     <constant name="c_heavengray">make_colour_rgb(225,225,225)</constant>
   </constants>
   <help>

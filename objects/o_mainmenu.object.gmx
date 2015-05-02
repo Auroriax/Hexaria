@@ -41,7 +41,7 @@ request = -1
 if global.checkupdate == false
 request = gj_datastore_get_global('Version')
 
-smallfont = 0
+smallfont = false
 </string>
           </argument>
         </arguments>

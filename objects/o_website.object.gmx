@@ -73,8 +73,7 @@ window_set_cursor(cr_default)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if instance_exists(o_credits) || window_get_fullscreen()
-{image_index = 1
+            <string>{image_index = 1
 window_set_cursor(cr_handpoint)}
 </string>
           </argument>
@@ -101,8 +100,11 @@ window_set_cursor(cr_handpoint)}
             <string>if instance_exists(o_credits)
 {url_open('http://amcookie.weebly.com'); }
 else
-if window_get_fullscreen()
-{window_set_fullscreen(false)}
+{if window_get_fullscreen()
+window_set_fullscreen(false)
+else
+window_set_fullscreen(true)
+}
 </string>
           </argument>
         </arguments>
@@ -137,7 +139,6 @@ draw_sprite_ext(sprite_index,0,x,y,1,1,0,c_white,1-alph)
 draw_sprite_ext(sprite_index,1,x,y,1,1,0,c_white,alph)
 }
 else
-if window_get_fullscreen()
 {draw_sprite_ext(s_windowsmall,0,x,y,1,1,0,c_white,1-alph)
 draw_sprite_ext(s_windowsmall,1,x,y,1,1,0,c_white,alph)}
 </string>

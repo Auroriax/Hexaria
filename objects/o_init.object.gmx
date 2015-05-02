@@ -66,7 +66,7 @@ audio_play_sound(mus_menu,100,true)
 
 randomize();
 
-gj_init("44053","") //Set privatekey to "" to disable GameJolt features as whole front-end
+gj_init("44053","d5f28c61a26fb262e42bce12b1e9920d") //Set privatekey to "" to disable GameJolt features as whole front-end
 gj_user_autologin()
 
 room_goto_next()

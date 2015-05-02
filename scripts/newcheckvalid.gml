@@ -20,7 +20,6 @@ for(i=2;i!=string_length(o_control.moves);i+=1)
   {amount += 1; pancake = string_replace(pancake,temp[i],"X")}
  else
  {
-  if keyboard_check(vk_f6) {show_message(string(string_length(o_control.moves))+" "+string(amount)+" "+string(string_length(temp[i]))+" "+temp[i])} //Debug
   if amount >= 2 && string_length(o_control.moves) == (amount*string_length(temp[i]))
   {return(string_count(temp[i],o_control.moves)*(string_length(temp[i])*2)*colors*5)}
  }
