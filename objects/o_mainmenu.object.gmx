@@ -38,7 +38,7 @@ news = ""
 version = ""
 request = -1
 
-if global.checkupdate == false
+if global.checkupdate == false &amp;&amp; gj_privatekey != ""
 request = gj_datastore_get_global('Version')
 
 smallfont = false
@@ -116,6 +116,7 @@ alarm[11] = 1
           <argument>
             <kind>1</kind>
             <string>var resultid = gj_result_id()
+
 if(resultid==request)
 {
  if(gj_result_status())

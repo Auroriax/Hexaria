@@ -40,6 +40,7 @@ else
         //gj_returnstring=string_replace_all(gj_returnstring,"
 //","") //make it easier to read the map by removing all newlines.
         //show_message(gj_returnstring) //Debugging
+        gj_returnstring = string(gj_returnstring)
         gj_returnstring=string_replace_all(gj_returnstring,'\"',"''") //Sorry, couldn't find a better way to do this.
         //First always check the first line, as this always contains the status
         gj_key=string_copy(gj_returnstring,1,string_pos(':"',gj_returnstring)-1)

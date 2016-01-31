@@ -17,15 +17,15 @@ SFX
 Geluiden ver hier vandaan
 Kleurenbl.
 Geeft iconen weer op de zeshoeken, om de game makkelijker te maken voor visueel beperkten
-Help
+Uitleg
 Leer hoe je het spel moet spelen
 Credits
 Alles wat heeft bijgedragen aan de ontwikkeling
-1. Klik en houd je muis ingedrukt op een zeshoek. Sleep je muis naar andere tegels om de keten voort te zetten.
-2. Als je tegels maakt, zoek dan naar patronen- een bepaalde volgorde kleuren steentjes, die vaker achter elkaar terugkeert. Er moeten minstens twee verschillende kleuren in voorkomen.
-3. Laat je muis los om het patroon compleet te maken. Als het voldoet, krijg je er punten voor!
-Let wel: Je kunt geen blokken selecteren die aan het vallen zijn, en je kunt enkel blokken selecteren die direct aan het huidige blok liggen. Selecteer een blok dat al aan de ketting ligt om de ketting ongedaan te maken tot dat punt. Sommige andere spelmodussen hebben ook speciale regels.
-Voorbeelden van correcte zetten:
+Welkom bij Hexaria. We gaan nu uitleggen hoe je het moet spelen met deze korte tutorial! Klik op mij om verder te gaan.
+De bedoeling in Hexaria is om volgordes van zeshoeken te selecteren die een patroon bevat.
+Een patroon is een specifieke volgorde van zeshoeken die tweemaal of vaker in je geselecteerde rijtje terugkomt.
+Voorbeeld: Het rijtje [Rood-Blauw-Rood-Blauw] bevat het patroon {Rood-Blauw} tweemaal, en is dus correct.
+Volg je het nog? Sleep je muis over een rijtje zeshoeken met patronen, zoals [Rood-Blauw-Rood-Blauw].
 Game over!
 Voer je naam in voor op de online highscorelijst.
 Deze naam is online zichtbaar, dus kies zorgvuldig.
@@ -37,7 +37,7 @@ Highscorelijsten voor deze modus:
 Online highscores ophalen mislukt.#Je score is echter wel verzonden.
 Klik ergens om terug naar het hoofdmenu terug te gaan
 Tunnel
-Jouw tunnelvisie beperkt het aantal mogelijke zetten wat je kan zien
+Jouw tunnelvisie beperkt het aantal mogelijke zetten wat je kan zien##Je kunt je zetten alleen beginnen in de tunnel
 Stortbui
 Meteoren vallen uit de ruimte...
 Ontstaan
@@ -65,7 +65,15 @@ Een nieuwe versie van Hexaria (V
 ) is nu beschikbaar.
 Druk op [F2] om naar de downloadpagina te gaan op itch.io.
 Druk op [F3] om de changelog te bekijken.
-"); break;
+Volledig#scherm
+Afsluiten
+Netjes! Probeer nu een iets langere, met minstens zes zeshoeken, zoals [Rood-Blauw-Groen-Rood-Blauw-Groen].
+Uitstekend! Dit is alles wat je hoeft te weten. Simpel, nietwaar? Des te meer zeshoeken en kleuren in je rijtje, des te meer punten het oplevert. Probeer de grootsten te vinden!
+Ook belangrijk is dat je rijtje altijd minimaal twee verschillende kleuren moet hebben. Bepaalde spelmodussen voegen ook nog extra regels toe.
+Oke, dat was het! Je kunt nog even door blijven oefenen, of hier klikken om terug naar het hoofdmenu te gaan.
+- Pauze -
+"
+); break;
 
 default:
 return(
@@ -84,15 +92,15 @@ Sounds
 Sounds from space's edge
 Colorblind
 Displays icons on the blocks, specially for the visually impaired
-Help
+Tutorial
 Learn the rules of the game
 Credits
 Everything that contributed to this game
-1. Click and hold your mouse on a tile. Then, you can select any tile around it by moving your mouse towards it.
-2. By selecting tiles, make sure you make pattern. A pattern is a certain sequence of colors, that occurs more than once after each other. At least two different colors should occur in the pattern.
-3. Release the mouse to finish the pattern. If it is valid, you'll redeem points for it. If you hover over a block already in the chain, the chain is undone until that point.
-!. You cannot select blocks that are falling, and you can only select blocks directly arround the one currently selected. Some other modes have special rules as well.
-Examples of correct moves:
+Welcome to Hexaria. We will now explain you how to play the game with this short tutorial! Click this textbox to continue.
+The goal of Hexaria is to find and select a sequence of hexagons that contains a pattern.
+A pattern is a specific ordering of hexagons that appears twice or more times in the selected sequence of hexagons.
+So, an example of a sequence could be [Red-Blue-Red-Blue], since the pattern {Red-Blue} appears twice.
+Following it so far? Please drag your mouse over a sequence of hexagons containing patterns, like [Red-Blue-Red-Blue].
 Game over!
 Please enter your name for the online leaderboards.
 Note: This name will be publicy visible, so choose wisely.
@@ -104,7 +112,7 @@ Leaderboards for this mode:
 Failed to fetch high scores.#However, your score has successfully been sent.
 Click anywhere to return to the main menu
 Tunnel
-Tunnel vision limits the amount of possible moves you can see
+Tunnel vision limits the amount of possible moves you can see...##You can only begin your sequences from inside the tunnel
 Downpour
 Meteors descend from space...
 Arise
@@ -132,4 +140,11 @@ A new version of Hexaria (V
 ) is now available.
 Press [F2] to go to the download page on itch.io.
 Press [F3] to check the changelog and see what's updated.
+Fullscreen
+Quit game
+Okay, nice! You've got it. Now try a more complicated one, at least six long, like [Red-Blue-Green-Red-Blue-Green]
+Excellent! That's all there is to it. Simple, huh? The more hexagons and colors are in your pattern, the more score you'll get for it. So try to find the big ones!
+You must understand that each pattern must have at least two different colors. Depending on the mode you're playing, additional rules might also be effective.
+Okay, that's it! Please enjoy Hexaria! Feel free to practice some more, or click here to go to the main menu.
+- Paused -
 ")}

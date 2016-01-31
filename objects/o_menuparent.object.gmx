@@ -115,6 +115,7 @@ window_set_cursor(cr_handpoint)
  alarm[11] = 1;
  window_set_cursor(cr_default); 
  if global.sfx {audio_play_sound(sou_modeselect,0,false)}
+ global.tutorial = false;
 }
 </string>
           </argument>

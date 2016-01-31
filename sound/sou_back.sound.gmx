@@ -2,10 +2,10 @@
 <sound>
   <kind>0</kind>
   <extension>.wav</extension>
-  <origname>D:\Tom\Documents\GameMaker\Projects\Hexaria V1000\Hexaria V4.gmx\\sound\audio\sou_back.wav</origname>
+  <origname>sound\audio\sou_back.wav</origname>
   <effects>0</effects>
   <volume>
-    <volume>0.4</volume>
+    <volume>0.21</volume>
   </volume>
   <pan>0</pan>
   <bitRates>
@@ -25,4 +25,5 @@
   <compressed>0</compressed>
   <streamed>0</streamed>
   <uncompressOnLoad>0</uncompressOnLoad>
+  <audioGroup>0</audioGroup>
 </sound>

@@ -201,6 +201,11 @@ Unless required by applicable law or agreed to in writing, software distributed 
    
 ...with a special appearance of the Windows included "Arial" and "Terminal" fonts!
 
+Sound effects:
+Crystal bowl nail E4 1 by caiogracco: https://freesound.org/people/caiogracco/sounds/150456/
+Licenced under CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Other sound effects generated with BFXR (http://www.bfxr.net/)
+
 Music:
 "The Waning Moon", "Soaring Together", "The Beating Sun" and "Spirit of the Valley (Feat M-PeX)" from the Dreamheart EP (https://animassound.bandcamp.com/album/dreamheart-ep) by Anima are licensed under a Attribution 3.0 Unported (CC BY 3.0) licence. See http://creativecommons.org/licenses/by/3.0/
 
@@ -217,7 +222,7 @@ GameJolt- for hosting my stuff, providing online highscore lists and more
 Thanks for playing! (and for watching this far into the credits, obviously)
 For more of my games and other work, visit amcookie.weebly.com
 
-Sprites, sounds, scripts, object code and rooms: Copyright 2015 Tom '+"'Amazingcookie'"+' H.
+Sprites, scripts, object code and rooms: Copyright 2016 Tom '+"'Amazingcookie'"+' H.
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -230,9 +235,6 @@ Sprites, sounds, scripts, object code and rooms: Copyright 2015 Tom '+"'Amazingc
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
-
-Privacy Policy:
-This game tracks stats. All collected data is purely gameplay related. Most collected data is displayed publicly, accompanied by any username/guest name you supplied. Data may be kept indefinitely.
 ',14,770+112)
 draw_sprite(s_sketch1,0,0,y+1160)
 draw_sprite(s_sketch2,0,249,y+1160)

@@ -66,7 +66,7 @@ if txt &gt; 350 &amp;&amp; txt &lt;= 500 {audio_play_sound(sou_explosion4,0,fals
 if txt &gt; 500               {audio_play_sound(sou_explosion5,0,false)}
 }
 
-if zenabled()
+if zenabled() &amp;&amp; gj_privatekey != ""
 {
  with o_control
  {
