@@ -101,8 +101,11 @@
             <kind>1</kind>
             <string>background_alpha[1] += 0.05
 
-if background_alpha[1] == 1
-{score=0; window_set_cursor(cr_default); room_restart()}
+if background_alpha[1] &gt;= 1
+{
+background_alpha[1] = 1
+score=0; window_set_cursor(cr_default); room_restart()
+}
 
 alarm[11] = 1
 </string>
@@ -128,8 +131,11 @@ alarm[11] = 1
           <argument>
             <kind>1</kind>
             <string>background_alpha[1] += 0.05
-if background_alpha[1] == 1
-{stopmusic(); score=0; window_set_cursor(cr_default); room_goto(rm_main);}
+if background_alpha[1] &gt;= 1
+{
+background_alpha[1] = 1
+stopmusic(); score=0; window_set_cursor(cr_default); room_goto(rm_main);
+}
 
 alarm[10] = 1
 </string>
@@ -181,11 +187,17 @@ else
           <argument>
             <kind>1</kind>
             <string>if paused == false &amp;&amp; distance &gt;= 1
-{distance -= 8;}
+    {
+    distance -= 8;
+    if distance &lt; 0 {distance = 0};
+    }
 else
 {
-if paused == true &amp;&amp; distance &lt;= 46
-distance += 4
+    if paused == true &amp;&amp; distance &lt;= 46
+    {
+        distance += 4
+        if distance &gt; 46 {distance = 46}
+    }
 }
 </string>
           </argument>

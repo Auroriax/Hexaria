@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>background_alpha[1] += 0.05
+if background_alpha[1] &gt; 1 {background_alpha[1] = 1}
 o_stars.scale += 0.25
 if background_alpha[1] == 1
 {score=0;

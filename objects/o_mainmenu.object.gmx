@@ -65,6 +65,10 @@ smallfont = false
           <argument>
             <kind>1</kind>
             <string>background_alpha[1] -= 0.0125
+if background_alpha[1] &lt;= 0
+{
+background_alpha[1] = 0;
+}
 
 if mouse_check_button_pressed(mb_any) || keyboard_check_pressed(vk_anykey)
 background_alpha[1] = 0
@@ -318,7 +322,7 @@ room_restart()
           <argument>
             <kind>1</kind>
             <string>if real(version) &gt; cn_version
-url_open("https://trello.com/b/nWzVLgAG/hexaria-patchlog")
+url_open_ext("https://trello.com/b/nWzVLgAG/hexaria-patchlog","_blank")
 </string>
           </argument>
         </arguments>
@@ -342,7 +346,7 @@ url_open("https://trello.com/b/nWzVLgAG/hexaria-patchlog")
           <argument>
             <kind>1</kind>
             <string>if real(version) &gt; cn_version
-{url_open("http://amazingcookie.itch.io/hexaria")
+{url_open_ext("http://amazingcookie.itch.io/hexaria","_blank")
 game_end()}
 </string>
           </argument>

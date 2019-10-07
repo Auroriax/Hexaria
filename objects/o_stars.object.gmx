@@ -156,10 +156,16 @@ alarm[2] = 1
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if global.coloricon &amp;&amp; alph != 0.50
-alph -= 0.05
-if global.coloricon == false &amp;&amp; alph != 1
-alph += 0.05
+            <string>if global.coloricon &amp;&amp; alph &gt;= 0.50
+{
+    alph -= 0.05
+    if alph &lt; 0.5 {alph = 0.5}
+}
+if global.coloricon == false &amp;&amp; alph &lt;= 1
+{
+    alph += 0.05
+    if alph &gt; 1 {alph = 1}
+}
 </string>
           </argument>
         </arguments>

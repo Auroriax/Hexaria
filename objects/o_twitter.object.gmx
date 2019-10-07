@@ -98,8 +98,8 @@ window_set_cursor(cr_handpoint)}
           <argument>
             <kind>1</kind>
             <string>if instance_exists(o_credits)
-{url_open('https://twitter.com/AmazingcookieNL'); }
-else
+{url_open_ext('https://twitter.com/Auroriax',"_blank"); }
+else if (os_browser == browser_not_a_browser)
 {game_end()}
 </string>
           </argument>
@@ -134,7 +134,7 @@ if instance_exists(o_credits)
 draw_sprite_ext(sprite_index,0,x,y,1,1,0,c_white,1-alph)
 draw_sprite_ext(sprite_index,1,x,y,1,1,0,c_white,alph)
 }
-else
+else if (os_browser == browser_not_a_browser)
 {draw_sprite_ext(s_exitgame,0,x,y,1,1,0,c_white,1-alph)
 draw_sprite_ext(s_exitgame,1,x,y,1,1,0,c_white,alph)
 draw_set_halign(2)

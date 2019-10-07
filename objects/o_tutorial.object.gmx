@@ -70,9 +70,12 @@ alphinc = -0.01
             <kind>1</kind>
             <string>if ind != 4 &amp;&amp; ind != 5
 {
-alph += alphinc
-if alph == 0 || alph == 1
-alphinc = -alphinc
+    alph += alphinc
+    if alph &lt;= 0 || alph &gt;= 1
+    {
+        alph = clamp(alph,0,1)
+        alphinc = -alphinc
+        }
 }
 else
 alph = 0.99

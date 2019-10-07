@@ -117,7 +117,7 @@ case 6: c = "It has hexagons and METEOR STORMS!"; break;
 case 7: c = "So, who thinks he can refine that score"; break;
 case 8: c = "Do you really think you can get more points than me?"; break;
 }
-url_open("https://twitter.com/intent/tweet?text=I%20scored%20"+a+"%20points%20in%20the%20"+b+"%20mode%20in%20%23Hexaria ! "+c+" http://gamejolt.com/games/puzzle/hexaria/44053/&amp;source=webclient")
+url_open_ext("https://twitter.com/intent/tweet?text=I%20scored%20"+a+"%20points%20in%20the%20"+b+"%20mode%20in%20%23Hexaria ! "+c+" http://gamejolt.com/games/puzzle/hexaria/44053/&amp;source=webclient","_blank")
 
 //Prevent the game from exitting to the main menu
 //background_alpha[1] = 0; alarm[11] = -1; //Doesn't work

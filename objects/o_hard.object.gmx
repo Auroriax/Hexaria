@@ -28,7 +28,7 @@
             <string>//sprite_index = s_hard
 target = rm_hard
 
-color= c_blue
+color= c_aqua
 name = text[5]
 desc = text[6]
 smallfont = false

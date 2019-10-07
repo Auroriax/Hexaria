@@ -141,7 +141,7 @@ global.bgwrap = true</code>
     <instance objName="o_block" x="539" y="495" name="inst_8B5F3EB8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_block" x="585" y="495" name="inst_4B14F386" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_block" x="631" y="495" name="inst_75E85009" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_raisestack" x="145" y="300" name="inst_BC5C19DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_raisestack" x="145" y="450" name="inst_BC5C19DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
