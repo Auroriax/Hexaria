@@ -2,8 +2,33 @@
 <assets>
   <Configs name="configs">
     <Config>Configs\Default</Config>
+    <Config>Configs\CoolMath</Config>
   </Configs>
-  <NewExtensions/>
+  <datafiles number="1" name="datafiles">
+    <datafile>
+      <name>NOTICE.txt</name>
+      <exists>-1</exists>
+      <size>0</size>
+      <exportAction>2</exportAction>
+      <exportDir></exportDir>
+      <overwrite>0</overwrite>
+      <freeData>-1</freeData>
+      <removeEnd>0</removeEnd>
+      <store>0</store>
+      <ConfigOptions>
+        <Config name="Default">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+        <Config name="CoolMath">
+          <CopyToMask>9223372036854775807</CopyToMask>
+        </Config>
+      </ConfigOptions>
+      <filename>NOTICE.txt</filename>
+    </datafile>
+  </datafiles>
+  <NewExtensions>
+    <extension index="0">extensions\coolmath</extension>
+  </NewExtensions>
   <sounds name="sound">
     <sounds name="Music">
       <sound>sound\mus_menu</sound>
@@ -50,8 +75,6 @@
       <sprite>sprites\s_new</sprite>
       <sprite>sprites\s_sketch1</sprite>
       <sprite>sprites\s_sketch2</sprite>
-      <sprite>sprites\s_tutgif1</sprite>
-      <sprite>sprites\s_tutgif2</sprite>
       <sprite>sprites\s_backbutton</sprite>
       <sprite>sprites\s_website</sprite>
       <sprite>sprites\s_twitter</sprite>
@@ -73,6 +96,7 @@
     <sprite>sprites\s_lock</sprite>
     <sprite>sprites\s_bonuspoints</sprite>
     <sprite>sprites\s_questionhex</sprite>
+    <sprite>sprites\s_coolmathsplash</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_normal</background>
@@ -206,6 +230,8 @@
     <object>objects\o_cross</object>
     <object>objects\o_raisestack</object>
     <object>objects\o_tutorial</object>
+    <object>objects\o_coolmathsplash</object>
+    <object>objects\o_coolMath</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>

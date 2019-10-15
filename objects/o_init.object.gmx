@@ -8,6 +8,36 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="2" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if mouse_check_button_pressed(mb_left)
+{
+    mouse_clear(mb_left)
+        audio_play_sound(mus_menu,100,true)
+        coolmathCallStart();
+    room_goto_next()
+}
+alarm[0] = 1;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="7" enumb="2">
       <action>
         <libid>1</libid>
@@ -64,14 +94,68 @@ global.tutorial = false //If the tutorial is enabled.
 
 global.guestname = "" //This is the name of a guest user, which is prompted at game overs
 
-audio_play_sound(mus_menu,100,true)
-
 randomize();
 
 gj_init("44053","") //Set privatekey to "" to disable GameJolt features as whole front-end
 gj_user_autologin()
 
-room_goto_next()
+if !COOLMATH
+{
+    room_goto_next()
+    audio_play_sound(mus_menu,100,true)
+}
+else
+{
+    domain = url_get_domain();
+    if(domain!="https://www.coolmath-games.com"&amp;&amp;
+    domain!="m.coolmathgames.com"&amp;&amp;
+    domain!="dev.coolmathgames.com"&amp;&amp;
+    domain!="edit-stage.coolmathgames.com"&amp;&amp;
+    domain!="www.stage.coolmathgames.com"&amp;&amp;
+    domain!="edit.coolmathgames.com"&amp;&amp;
+    domain!="www.coolmathgames.com"&amp;&amp;
+    domain!="https://www.coolmathgames.com"&amp;&amp;
+    domain!="m.coolmath-games.com"&amp;&amp;
+    domain!="dev.coolmath-games.com"&amp;&amp;
+    domain!="edit-stage.coolmath-games.com"&amp;&amp;
+    domain!="www.stage.coolmath-games.com"&amp;&amp;
+    domain!="edit.coolmath-games.com"&amp;&amp;
+    domain!="www.coolmath-games.com")
+    {
+        alarm[0] = 1;
+    }
+    else
+    {
+        //qqq
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_set_font(f_zerothrees28); draw_set_halign(1)
+var txt = "Press anywhere to play!"
+if alarm[0] == -1 {txt = "Sorry, this game#is sitelocked!"}
+txtoutline(room_width/2,room_height*0.7,txt,c_white)
+draw_text(room_width/2,room_height*0.7,txt)
 </string>
           </argument>
         </arguments>

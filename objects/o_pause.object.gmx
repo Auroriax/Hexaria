@@ -257,6 +257,10 @@ if paused == true &amp;&amp; mouse_check_button_released(mb_left) &amp;&amp; dis
    with (o_block) {color_index = irandom_range(0,o_control.colors-1); if y &gt;= -5 {y -= 470+x}}; 
    if paused == true {pausetoggle()}; exit
   } 
+   if COOLMATH
+   {
+    coolmathCallLevelRestart(room);
+   }
   exitlevel(); instance_create(x+31-12-48,y+31,o_hexgrow); alarm[11] = 1; 
  }
  

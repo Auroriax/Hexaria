@@ -96,62 +96,6 @@ if o_zen.alarm[10] == -1 &amp;&amp; o_zen.alarm[11] == -1
         </arguments>
       </action>
     </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>604</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>0</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_inherited</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-      </action>
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>/*
-draw_set_color(c_white);
-draw_set_font(f_droidmono20)
-draw_text_ext_color(525-(dist-10*5)+56,115,text[17],15,480,c_white,c_white,c_heavengray,c_heavengray,1-alph)
-draw_set_font(f_small)
-draw_text_ext_color(525-(dist-10*5)+56,125,'##'+ text[21] + '##' + text[22] + '##' + text[23] + '##' + text[24] + "##" + text[25],15,480,c_white,c_white,c_heavengray,c_heavengray,1-alph)
-
-draw_sprite_ext(s_tutgif1,imgindex[1],275-(dist-10*5)+56,421,1,1,0,-1,1-alph) //249x176
-draw_sprite_ext(s_tutgif2,imgindex[2],525-(dist-10*5)+56,421,1,1,0,-1,1-alph)
-var scl = 0.6
-
-draw_sprite_ext(s_white,0,410-(dist-10*5),115,scl,scl,0,colori(0),(1-alph)*0.5)
-draw_sprite_ext(s_white,0,440-(dist-10*5),115,scl,scl,0,colori(2),(1-alph)*0.5)
-draw_sprite_ext(s_white,0,470-(dist-10*5),115,scl,scl,0,colori(0),(1-alph)*0.5)
-draw_sprite_ext(s_white,0,500-(dist-10*5),115,scl,scl,0,colori(2),(1-alph)*0.5)
-
-draw_sprite_ext(s_white,0,638-(dist-10*5),115,scl,scl,0,colori(2),(1-alph)*0.5)
-draw_sprite_ext(s_white,0,668-(dist-10*5),115,scl,scl,0,colori(0),(1-alph)*0.5)
-draw_sprite_ext(s_white,0,698-(dist-10*5),115,scl,scl,0,colori(2),(1-alph)*0.5)
-draw_sprite_ext(s_white,0,728-(dist-10*5),115,scl,scl,0,colori(0),(1-alph)*0.5)
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
   </events>
   <PhysicsObject>0</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
