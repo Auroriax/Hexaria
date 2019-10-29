@@ -122,11 +122,11 @@ else
     domain!="edit.coolmath-games.com"&amp;&amp;
     domain!="www.coolmath-games.com")
     {
-        alarm[0] = 1;
+        
     }
     else
     {
-        //qqq
+        alarm[0] = 1;
     }
 }
 </string>
@@ -152,7 +152,7 @@ else
           <argument>
             <kind>1</kind>
             <string>draw_set_font(f_zerothrees28); draw_set_halign(1)
-var txt = "Press anywhere to play!"
+var txt = "Click anywhere to play!"
 if alarm[0] == -1 {txt = "Sorry, this game#is sitelocked!"}
 txtoutline(room_width/2,room_height*0.7,txt,c_white)
 draw_text(room_width/2,room_height*0.7,txt)

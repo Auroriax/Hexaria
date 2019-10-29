@@ -3,8 +3,8 @@
   <caption></caption>
   <width>912</width>
   <height>600</height>
-  <vsnap>90</vsnap>
-  <hsnap>46</hsnap>
+  <vsnap>45</vsnap>
+  <hsnap>23</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -246,7 +246,9 @@ global.bgwrap = true</code>
     <instance objName="o_block" x="493" y="45" name="inst_7B90DE63" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_block" x="539" y="45" name="inst_043A4A2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_pause" x="125" y="11" name="inst_B16311A5" locked="0" code="&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_tutorial" x="735" y="517" name="inst_A7437A75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_tutorial" x="643" y="517" name="inst_A7437A75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_music" x="92" y="90" name="inst_4F371637" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_sfx" x="161" y="90" name="inst_F99C8D68" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

@@ -175,6 +175,7 @@
     <script>scripts\tunnelabled.gml</script>
     <script>scripts\selectgem.gml</script>
     <script>scripts\txtoutline.gml</script>
+    <script>scripts\startmusic.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\f_small</font>

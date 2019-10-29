@@ -39,25 +39,17 @@ background_hspeed[0] = -0.1
 alarm[11] = 1
 draw_set_font(f_droidmono20)
 
-if !ascentabled() &amp;&amp; !tunnelabled() &amp;&amp; !decenabled() &amp;&amp; !zenabled() &amp;&amp; audio_is_playing(mus_menu)
-{audio_stop_all(); audio_play_sound(mus_credits,100,true)} //No special mode
-
-if (ascentabled() || tunnelabled() || decenabled())&amp;&amp; audio_is_playing(mus_menu)
-{audio_stop_all(); audio_play_sound(mus_beatingsun,100,true)}
-
-if zenabled()
-{mantra = rndmmantra(); alarm[10] = seconds(30)
- if audio_is_playing(mus_menu) {audio_stop_all(); audio_play_sound(mus_zen,100,true)}
- if gj_privateset()
- {
-  request[0] = gj_datastore_get_global("Zen_"+os_get_region())
-  request[1] = gj_datastore_update_global("Zen_World","0","add")
- }
+if audio_is_playing(mus_menu) 
+{
+    audio_stop_all();
+    
+    startmusic();
 }
 
-if ascentabled() {raisespeed = 20; alarm[9] = raisespeed}
-if tunnelabled() {movesleft = 20}
-if decenabled()  {fallspeed = seconds(1); alarm[8] = fallspeed}
+if zenabled() {mantra = rndmmantra(); alarm[10] = seconds(30)}
+else if ascentabled() {raisespeed = 20; alarm[9] = raisespeed}
+else if tunnelabled() {movesleft = 20}
+else if decenabled()  {fallspeed = seconds(1); alarm[8] = fallspeed}
 
 if global.coloricon
 background_alpha[0] = 0.5 //Colorblind thingy, more contrast
@@ -313,15 +305,18 @@ if o_control.movesleft == 0
             <kind>1</kind>
             <string>if o_pause.paused == true
 {
-if alarm[0] &gt;= 1 {alarm[0] += 1}
-if alarm[8] &gt;= 1 {alarm[8] += 1}
-if alarm[9] &gt;= 1 {alarm[9] += 1}
-background_x[0] -= background_hspeed[0]
+    if alarm[0] &gt;= 1 {alarm[0] += 1}
+    if alarm[8] &gt;= 1 {alarm[8] += 1}
+    if alarm[9] &gt;= 1 {alarm[9] += 1}
+    background_x[0] -= background_hspeed[0]
 }
 else
 {
-if background_x[0] &lt;= -background_width[0] + room_width &amp;&amp; global.bgwrap {background_hspeed[0] = 0.1}
-if background_x[0] &gt;= 0 &amp;&amp; global.bgwrap {background_hspeed[0] = -0.1}
+    if global.bgwrap
+    {
+        if background_x[0] &lt;= -background_width[0] + room_width + 312 {background_hspeed[0] = 1}
+        if background_x[0] &gt;= 0 {background_hspeed[0] = -1}
+    }
 }
 
 o_control.moved = 0
