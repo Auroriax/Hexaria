@@ -314,8 +314,8 @@ else
 {
     if global.bgwrap
     {
-        if background_x[0] &lt;= -background_width[0] + room_width + 312 {background_hspeed[0] = 1}
-        if background_x[0] &gt;= 0 {background_hspeed[0] = -1}
+        if background_x[0] &lt;= -background_width[0] + room_width + 312 {background_hspeed[0] = 0.1}
+        if background_x[0] &gt;= 0 {background_hspeed[0] = -0.1}
     }
 }
 
