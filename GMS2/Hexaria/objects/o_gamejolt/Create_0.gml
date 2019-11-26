@@ -1,4 +1,4 @@
-action_inherited();
+/*action_inherited();
 color= c_yellow
 name = "GameJolt"
 desc = text[47]
@@ -13,3 +13,4 @@ cummscorecount = -1
 if !gj_privateset()
 {x-=2000}
 
+*/

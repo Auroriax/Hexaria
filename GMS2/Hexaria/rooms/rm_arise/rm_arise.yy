@@ -95,7 +95,8 @@
         "1d1036c5-493f-49be-b591-0c840eececef",
         "190991dd-4948-4dfc-9535-7fb1f19263ec",
         "918b2375-5f6e-4c62-8290-8d8c0a0e9a67",
-        "611ba0c6-0f5f-428c-bfd5-e44266bae07d"
+        "611ba0c6-0f5f-428c-bfd5-e44266bae07d",
+        "87cc8d36-269b-429c-a617-9d0b968fc181"
     ],
     "IsDnD": false,
     "layers": [
@@ -260,7 +261,8 @@
 {"name": "inst_8B5F3EB8","id": "3fbea4d3-9e8f-4ea8-b467-181fcd430924","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_8B5F3EB8","objId": "bc108f73-2c78-4e05-b446-a26e4c43e207","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 539,"y": 495},
 {"name": "inst_4B14F386","id": "b7104005-acc0-4a12-acbf-c0912558585b","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4B14F386","objId": "bc108f73-2c78-4e05-b446-a26e4c43e207","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 585,"y": 495},
 {"name": "inst_75E85009","id": "1d1036c5-493f-49be-b591-0c840eececef","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_75E85009","objId": "bc108f73-2c78-4e05-b446-a26e4c43e207","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 631,"y": 495},
-{"name": "inst_BC5C19DD","id": "190991dd-4948-4dfc-9535-7fb1f19263ec","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_BC5C19DD","objId": "bf244f87-d4c7-47e2-a71d-e297453ba8eb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 145,"y": 450}
+{"name": "inst_BC5C19DD","id": "190991dd-4948-4dfc-9535-7fb1f19263ec","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_BC5C19DD","objId": "bf244f87-d4c7-47e2-a71d-e297453ba8eb","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 145,"y": 450},
+{"name": "inst_AF57D5D","id": "87cc8d36-269b-429c-a617-9d0b968fc181","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_AF57D5D","objId": "5b409980-4937-4312-92a9-c3b1a826afcd","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 32,"y": 160}
             ],
             "layers": [
 
@@ -300,7 +302,7 @@
         },
         {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Compatibility_Background_0_bg_arise",
+            "name": "Background",
             "id": "6a7a1bdd-f7b2-427c-8541-de21a1efa729",
             "animationFPS": 15,
             "animationSpeedType": "0",

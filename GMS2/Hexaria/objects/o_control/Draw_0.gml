@@ -21,7 +21,7 @@ d = ""
 c = string_length(string(score))
 for(i=0;i!=7-c;i+=1)
 {d += "0"}
-draw_text(90+56,560,string_hash_to_newline(d+string(score)))
+draw_text(90+56,565,string_hash_to_newline(d+string(score)))
 
 draw_line(90+56-string_width(string_hash_to_newline(d+string(score)))/2,565,90+56+string_width(string_hash_to_newline(d+string(score)))/2,565)
 

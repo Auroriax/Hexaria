@@ -1,5 +1,5 @@
 //Special rules for Downpour mode
-var maxy, xx, yy;
+var xx, yy;
 xx = -1; yy = -1
 
 for(i=0;i!=21;i+=1)

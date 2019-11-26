@@ -1,16 +1,24 @@
+bg = layer_get_id("Background")
+
 if o_pause.paused == true
 {
     if alarm[0] >= 1 {alarm[0] += 1}
     if alarm[8] >= 1 {alarm[8] += 1}
     if alarm[9] >= 1 {alarm[9] += 1}
-    __background_set( e__BG.X, 0, __background_get( e__BG.X, 0 ) - (__background_get( e__BG.HSpeed, 0 )) )
+	layer_x(bg,layer_get_x(bg) - layer_get_hspeed(bg))
 }
 else
 {
     if global.bgwrap
     {
-        if __background_get( e__BG.X, 0 ) <= -__background_get( e__BG.Width, 0 ) + room_width + 312 {__background_set( e__BG.HSpeed, 0, 0.1 )}
-        if __background_get( e__BG.X, 0 ) >= 0 {__background_set( e__BG.HSpeed, 0, -0.1 )}
+		if (layer_get_x(bg) <= -1280+room_width)
+		{
+			layer_hspeed(bg, 0.1)
+		}
+        else if layer_get_x(bg) >= 0 {
+			layer_x(bg,0)
+			layer_hspeed(bg,-0.1)
+		}
     }
 }
 

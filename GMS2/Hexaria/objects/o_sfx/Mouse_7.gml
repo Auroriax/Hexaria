@@ -1,10 +1,10 @@
 if os_browser == browser_ie
 {
-	show_message("Audio is not supported in this browser. Please upgrade or change your browser.")
+	showwarning("Audio is not supported in this browser. Please upgrade or change your browser.")
 }
-else if audio_system_is_available()
+else if !audio_system_is_available()
 {
-	show_message("We don't have permission from your browser to play audio. Please check your preferences.")
+	showwarning("We don't have permission from your browser to play audio. Please check your preferences.")
 }
 else
 {

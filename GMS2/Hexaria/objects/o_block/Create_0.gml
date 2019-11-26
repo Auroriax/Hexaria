@@ -13,3 +13,4 @@ alarm[11] = 1
 locked = false //If a gem is locked, it has to be included twice to disappear
 bonus = false //If a BONUS gem is matched, the player gains 100 bonus points
 
+image_speed = 0;

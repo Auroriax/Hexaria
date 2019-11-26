@@ -200,7 +200,8 @@
         "4ae80fd1-bd83-4a10-93f2-3fe977b49c26",
         "013232b8-b238-4613-82b5-92d602c92dbe",
         "d9193105-1fe0-4dfb-8962-a56d15f7162e",
-        "7b5bfb3e-ede6-45e1-94cf-d409a277d17d"
+        "7b5bfb3e-ede6-45e1-94cf-d409a277d17d",
+        "1a251ca8-c09e-41c8-a33e-7c2ce331da07"
     ],
     "IsDnD": false,
     "layers": [
@@ -470,7 +471,8 @@
 {"name": "inst_E70E8F9C","id": "53c9750c-5a13-4d46-86c7-ae37d491c8fb","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_E70E8F9C","objId": "8cba3af5-ddda-4d2f-9753-32ecfb4c2bd2","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 792,"y": 630},
 {"name": "inst_7B90DE63","id": "bc83e603-9988-4d71-884d-035b4b0d7348","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7B90DE63","objId": "bc108f73-2c78-4e05-b446-a26e4c43e207","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 493,"y": 45},
 {"name": "inst_043A4A2D","id": "4ae80fd1-bd83-4a10-93f2-3fe977b49c26","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_043A4A2D","objId": "bc108f73-2c78-4e05-b446-a26e4c43e207","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 539,"y": 45},
-{"name": "inst_B16311A5","id": "013232b8-b238-4613-82b5-92d602c92dbe","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_B16311A5.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_B16311A5","objId": "a14be467-53da-4593-8ed2-67f5acf86f52","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 125,"y": 11}
+{"name": "inst_B16311A5","id": "013232b8-b238-4613-82b5-92d602c92dbe","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_B16311A5.gml","creationCodeType": ".gml","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_B16311A5","objId": "a14be467-53da-4593-8ed2-67f5acf86f52","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 125,"y": 11},
+{"name": "inst_6A6095B9","id": "1a251ca8-c09e-41c8-a33e-7c2ce331da07","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_6A6095B9","objId": "5b409980-4937-4312-92a9-c3b1a826afcd","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 32,"y": 160}
             ],
             "layers": [
 
@@ -510,7 +512,7 @@
         },
         {
             "__type": "GMRBackgroundLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "Compatibility_Background_0_bg_hard",
+            "name": "Background",
             "id": "ef1440fe-bebe-43a4-9d09-6bbbb1903b56",
             "animationFPS": 15,
             "animationSpeedType": "0",

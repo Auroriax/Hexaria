@@ -1,4 +1,4 @@
-var resultid = gj_result_id()
+/*var resultid = gj_result_id()
 if(resultid==login)
 {
  if gj_result_status() == true
@@ -15,5 +15,5 @@ if(resultid==login)
  image_index = 0
 }
 
-gj_result_clear()
+gj_result_clear()*/
 

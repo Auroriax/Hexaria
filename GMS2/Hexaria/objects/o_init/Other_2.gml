@@ -46,7 +46,7 @@ else
     domain!="edit.coolmath-games.com"&&
     domain!="www.coolmath-games.com")
     {
-        alarm[0] = 1; //qqq
+
     }
     else
     {

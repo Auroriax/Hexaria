@@ -1,4 +1,4 @@
-if zenabled()
+/*if zenabled()
 {
 var resultid = gj_result_id()
 
@@ -15,3 +15,4 @@ if(resultid==request[0]) //If we just recieved the local score
 
 gj_result_clear()
 
+*/

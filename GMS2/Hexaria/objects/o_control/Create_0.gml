@@ -8,7 +8,7 @@ gemsmatched = 0 //Total amount of gems included in all valid matches
 
 __background_set( e__BG.Visible, 1, true ); 
 __background_set( e__BG.Alpha, 1, 0.95 ); 
-__background_set( e__BG.HSpeed, 0, -0.1 )
+layer_hspeed(layer_get_id("Background"), 0.1)
 alarm[11] = 1
 draw_set_font(f_droidmono20)
 
