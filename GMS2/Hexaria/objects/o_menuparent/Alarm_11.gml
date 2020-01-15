@@ -6,7 +6,7 @@ if __background_get( e__BG.Alpha, 1 ) == 1
  window_set_cursor(cr_default);
  if COOLMATH
  {
-    coolmathCallLevelStart(target);
+    //coolmathCallLevelStart(target);
  }
  room_goto(target)
 }

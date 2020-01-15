@@ -4,6 +4,8 @@ global.coloricon = false
 global.sfx = true
 global.particles = true //The game looks /way/ better with them on
 
+gpu_set_alphatestenable(true)
+
 global.checkupdate = false //Only check once per game boot if the game needs to be updated.
 
 //Initializes all text in the game (exept mantras) in the preferred language

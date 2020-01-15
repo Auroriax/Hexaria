@@ -1,7 +1,7 @@
 score = 0
 if COOLMATH
 {
- coolmathCallLevelRestart(room);
+ //coolmathCallLevelRestart(room);
 }
 room_restart()
 

@@ -5,9 +5,9 @@
     "name": "Windows",
     "option_windows_allow_fullscreen_switching": true,
     "option_windows_borderless": false,
-    "option_windows_company_info": "Amazingcookie",
+    "option_windows_company_info": "@Auroriax",
     "option_windows_copy_exe_to_dest": false,
-    "option_windows_copyright_info": "(C) Amazingcookie 2016",
+    "option_windows_copyright_info": "(C) Amazingcookie 2016-2019",
     "option_windows_description_info": "Hexaria (hexagon puzzle game)",
     "option_windows_disable_sandbox": false,
     "option_windows_display_cursor": true,
@@ -24,17 +24,17 @@
     "option_windows_resize_window": false,
     "option_windows_save_location": 0,
     "option_windows_scale": 0,
-    "option_windows_sleep_margin": 1,
+    "option_windows_sleep_margin": 10,
     "option_windows_splash_screen": "${options_dir}\\windows\\splash.png",
     "option_windows_start_fullscreen": false,
     "option_windows_steam_use_alternative_launcher": true,
     "option_windows_texture_page": "2048x2048",
     "option_windows_use_splash": false,
     "option_windows_version": {
-        "build": 2,
+        "build": 4,
         "major": 1,
         "minor": 0,
-        "revision": 2
+        "revision": 0
     },
     "option_windows_vsync": false
 }

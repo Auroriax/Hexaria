@@ -18,7 +18,7 @@
     "option_html5_index": "use_default",
     "option_html5_interpolate_pixels": true,
     "option_html5_jsprepend": "",
-    "option_html5_loadingbar": "-1",
+    "option_html5_loadingbar": "Use Default",
     "option_html5_localrunalert": true,
     "option_html5_outputdebugtoconsole": false,
     "option_html5_outputname": "index.html",
@@ -30,7 +30,7 @@
     "option_html5_usebuiltinparticles": true,
     "option_html5_usesplash": false,
     "option_html5_version": {
-        "build": 0,
+        "build": 4,
         "major": 1,
         "minor": 0,
         "revision": 0

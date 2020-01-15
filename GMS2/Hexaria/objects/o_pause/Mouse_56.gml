@@ -12,7 +12,7 @@ if paused == true && mouse_check_button_released(mb_left) && distance >= 46
   } 
    if COOLMATH
    {
-    coolmathCallLevelRestart(room);
+    //coolmathCallLevelRestart(room);
    }
   exitlevel(); instance_create(x+31-12-48,y+31,o_hexgrow); alarm[11] = 1; 
  }

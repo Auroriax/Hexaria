@@ -1,5 +1,5 @@
 if instance_exists(o_credits)
-{url_open_ext("http://amcookie.weebly.com","_blank"); }
+{url_open_ext("http://auroriax.com","_blank"); }
 else if (os_browser == browser_not_a_browser)
 {
     if window_get_fullscreen()
