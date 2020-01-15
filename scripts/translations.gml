@@ -96,7 +96,7 @@ Tutorial
 Learn the rules of the game
 Credits
 Everything that contributed to this game
-Welcome to Hexaria. We will now explain you how to play the game with this short tutorial! Click this textbox to continue.
+Welcome to Hexaria. We will now explain to you how to play the game with this short tutorial! Click this textbox to continue.
 The goal of Hexaria is to find and select a sequence of hexagons that contains a pattern.
 A pattern is a specific ordering of hexagons that appears twice or more times in the selected sequence of hexagons.
 So, an example of a sequence could be [Red-Blue-Red-Blue], since the pattern {Red-Blue} appears twice.
@@ -112,7 +112,7 @@ Leaderboards for this mode:
 Failed to fetch high scores.#However, your score has successfully been sent.
 Click anywhere to return to the main menu
 Tunnel
-Tunnel vision limits the amount of possible moves you can see...##You can only begin your sequences from inside the tunnel
+Tunnel#vision limits the#moves you can see.##You can only begin your sequences inside the tunnel
 Downpour
 Meteors descend from space...
 Arise
@@ -143,7 +143,7 @@ Press [F3] to check the changelog and see what's updated.
 Fullscreen
 Quit game
 Okay, nice! You've got it. Now try a more complicated one, at least six long, like [Red-Blue-Green-Red-Blue-Green]
-Excellent! That's all there is to it. Simple, huh? The more hexagons and colors are in your pattern, the more score you'll get for it. So try to find the big ones!
+Excellent! That's all there is to it. Simple, huh? The more hexagons and colors are in your pattern, the higher the score you'll get for it. So try to find the big ones!
 You must understand that each pattern must have at least two different colors. Depending on the mode you're playing, additional rules might also be effective.
 Okay, that's it! Please enjoy Hexaria! Feel free to practice some more, or click here to go to the main menu.
 - Paused -

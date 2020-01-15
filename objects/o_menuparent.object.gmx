@@ -31,6 +31,10 @@ o_stars.scale += 0.25
 if background_alpha[1] == 1
 {score=0;
  window_set_cursor(cr_default);
+ if COOLMATH
+ {
+    coolmathCallLevelStart(target);
+ }
  room_goto(target)
 }
 

@@ -99,6 +99,10 @@ window_set_cursor(cr_handpoint)
           <argument>
             <kind>1</kind>
             <string>score = 0
+if COOLMATH
+{
+ coolmathCallLevelRestart(room);
+}
 room_restart()
 </string>
           </argument>

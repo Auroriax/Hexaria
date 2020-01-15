@@ -51,10 +51,17 @@ alph = 0
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if o_mainmenu.drawcolor = color
+            <string>if (room = rm_main)
+    {
+    if o_mainmenu.drawcolor == color
+    {
+        changemenugem(global.defcolor,global.defname,global.defdesc,false)
+        window_set_cursor(cr_default)
+    }
+}
+else
 {
-changemenugem(global.defcolor,global.defname,global.defdesc,false)
-window_set_cursor(cr_default)
+    window_set_cursor(cr_default)
 }
 </string>
           </argument>
@@ -78,7 +85,10 @@ window_set_cursor(cr_default)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>changemenugem(color,name,desc,false)
+            <string>if (room == rm_main)
+{
+    changemenugem(color,name,desc,false)
+}
 
 window_set_cursor(cr_handpoint)
 </string>

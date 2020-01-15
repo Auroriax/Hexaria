@@ -42,6 +42,8 @@ if global.checkupdate == false &amp;&amp; gj_privatekey != ""
 request = gj_datastore_get_global('Version')
 
 smallfont = false
+
+image_speed = false;
 </string>
           </argument>
         </arguments>
@@ -119,7 +121,7 @@ alarm[11] = 1
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>var resultid = gj_result_id()
+            <string>/*var resultid = gj_result_id()
 
 if(resultid==request)
 {
@@ -133,7 +135,7 @@ if(resultid==request)
  }
 }
 
-gj_result_clear()
+gj_result_clear()*/
 </string>
           </argument>
         </arguments>

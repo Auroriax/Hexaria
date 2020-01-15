@@ -1,0 +1,30 @@
+{
+    "id": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+    "modelName": "GMLinuxOptions",
+    "mvc": "1.0",
+    "name": "Linux",
+    "option_linux_allow_fullscreen": true,
+    "option_linux_disable_sandbox": false,
+    "option_linux_display_cursor": true,
+    "option_linux_display_name": "Hexaria",
+    "option_linux_display_splash": false,
+    "option_linux_enable_steam": false,
+    "option_linux_homepage": "https:\/\/auroriax.itch.io\/hexaria",
+    "option_linux_icon": "${options_dir}\\linux\\icons\\64.png",
+    "option_linux_interpolate_pixels": false,
+    "option_linux_long_desc": "In Hexaria, you remove the gems from the field by including them into patterns, where the same order of gems appears multiple times in the same sequence.\\u000d\\u000a\\u000d\\u000aRace against time in the Normal, Hard and Expert difficulties, prevent an ever-growing tower from reaching too high in Arise, be limited in your movements and plan in advance in Tunnel, or fight against a rain of meteors stacking to the top in Downpour. Not feeling like a challenge? In the Zen mode, you can make patterns on your own pace, while gaining self respect with over thirty mantras.",
+    "option_linux_maintainer_email": "tom@auroriax.com",
+    "option_linux_resize_window": false,
+    "option_linux_scale": 0,
+    "option_linux_short_desc": "Hexaria - Pattern finding puzzle game",
+    "option_linux_splash_screen": "${options_dir}\\linux\\splash\\splash.png",
+    "option_linux_start_fullscreen": false,
+    "option_linux_sync": false,
+    "option_linux_texture_page": "2048x2048",
+    "option_linux_version": {
+        "build": 4,
+        "major": 1,
+        "minor": 0,
+        "revision": 0
+    }
+}
