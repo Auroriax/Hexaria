@@ -50,28 +50,28 @@ Be brave, whatever crosses your path.
 Stand strong, and you will succeed.
 Always be on your guard.
 Challenge yourself in such a way that you grow better each time.
-Mistakes are valubale.
-In game design, we call failures 'prototypes'.
+Mistakes are valuable.
+Consider your failures 'prototypes'.
 Even with a heart of worry, don a smile on your face.
 Be yourself, because you are unique.
 Even you can write better mantras than me.
-New experiences mean new suprises, both wanted and unwanted.
-Routines are experience points. Suprises are levelups.
+New experiences mean new surpises, both wanted and unwanted.
+Routines are experience points. Surpises are level-ups.
 Venture into the unknown.
 Nothing is infinite.
 The sky is the limit.
 You'll be sorry for your worry.
 Relax.
 Everything will be all right.
-If you want to relax, why not play a videogame?
+If you want to relax, why not play a game?
 Possibilities are everywhere.
 Failures are sacrifices for your next successes.
-Perfectness is a paradox.
+Perfection is a paradox.
 I am ready.
 Learning from your failures is a skill.
 If you fail, just strike back twice as hard.
 You did your best, and you did it with style!
-Perfectness is a hoax.
+Perfection is a hoax.
 I've found myself in more difficult situations before.
 If you can't do something the way it must, you must do it the way you can.
 If something's difficult, see it as an experiment.

@@ -1,4 +1,3 @@
-	showwarning("A test warning!")
 if os_browser == browser_ie
 {
 	showwarning("Audio is not supported in this browser. Please upgrade or change your browser.")
