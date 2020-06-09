@@ -8,3 +8,5 @@ amount = 0
 }
 mouse_clear(mb_left)
 mouse_clear(mb_right)
+
+amountValid = 0;

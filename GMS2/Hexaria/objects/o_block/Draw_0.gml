@@ -16,7 +16,11 @@ if o_pause.paused == false
 	
   draw_set_halign(fa_center); draw_set_font(f_small)
   var outlinecolor = c_black;
-  if o_control.valid >= 0 {draw_set_color(c_black); outlinecolor = c_lime}
+  if (o_control.valid >= 0 || amount <= o_control.amountValid) {
+	  draw_set_color(c_black); 
+	  outlinecolor = c_lime
+  }
+  
   txtoutline(x+sprite_width/2,y+sprite_height/2,string(amount),outlinecolor)
   draw_text(x+sprite_width/2,y+sprite_height/2,string_hash_to_newline(string(amount)))
   draw_set_color(c_white)

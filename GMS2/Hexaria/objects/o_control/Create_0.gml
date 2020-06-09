@@ -6,6 +6,8 @@ valid = false //Contains whether the current move is valid.
 matches = 0 //Amount of total valid matches made
 gemsmatched = 0 //Total amount of gems included in all valid matches
 
+amountValid = 0; //Keeps track of how long the last valid match was
+
 __background_set( e__BG.Visible, 1, true ); 
 __background_set( e__BG.Alpha, 1, 0.95 ); 
 layer_hspeed(layer_get_id("Background"), 0.1)

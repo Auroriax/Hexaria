@@ -59,5 +59,25 @@ if alarm[0] == -1 && moved == false && o_pause.paused == false
   }
  }
  
- o_control.valid = newcheckvalid()
+ o_control.valid = newcheckvalid(o_control.moves);
 }
+
+var tempMoves = o_control.moves;
+repeat(string_length(o_control.moves)) {
+	var a = newcheckvalid(tempMoves);
+	if a < 0 {
+		var len = string_length(tempMoves);
+		if (len != 0)
+			tempMoves = string_copy(tempMoves,0, len-1);
+		else {
+			o_control.amountValid = 0;
+			break;
+		}	
+	} else {
+		o_control.amountValid = string_length(tempMoves);
+		break;
+	}
+}
+
+show_debug_message("Len: "+ string(string_length(o_control.moves))
++ " Valid: "+ string(o_control.amountValid))

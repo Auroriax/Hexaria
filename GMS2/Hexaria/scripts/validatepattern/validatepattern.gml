@@ -1,8 +1,18 @@
 //This script checks if the pattern is correct, and if yes, sets all blocks in that pattern to delete.
 //Only tested to work from o_control. No arguments.
 
-var a, b;
-a = newcheckvalid(); b = 0
+var b = 0;
+
+repeat(100) {
+	var a = newcheckvalid(moves);
+	if a < 0 {
+		var len = string_length(moves);
+		moves = string_copy(moves,0, len-1);
+	} else {
+		break;	
+	}
+}
+
 if a >= 0
 {
 	score += a; matches += 1; gemsmatched += amount-1
@@ -26,6 +36,8 @@ if a >= 0
 	}
 }
 else
-{instance_create(mouse_x-18,mouse_y-31,o_cross)}
+{
+	instance_create(mouse_x-18,mouse_y-31,o_cross)
+}
 
 restore()

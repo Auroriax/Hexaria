@@ -12,3 +12,4 @@ ind += 1
 alph = 0.99
 }
 
+instance_destroy(o_cross);
